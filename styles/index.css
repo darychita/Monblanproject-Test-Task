@@ -1,4 +1,9 @@
+@import "../node_modules/flatpickr/dist/flatpickr.min";
 @import "./fonts";
+
+.flatpickr-input{
+    outline: none;
+}
 
 * {
     margin: 0;
@@ -40,7 +45,6 @@ header {
     left: 0;
     right: 0;
     height: 200px;
-    z-index: 2;
     background-color: rgba(255, 255, 255, 0.6);
     box-shadow: 0px 6px 24px 0px rgba(0,0,0,0.06);
 }
@@ -48,7 +52,6 @@ header {
 header > .container {
     display: flex;
     padding: 15px 70px 0 70px;
-    /* height: 100%; */
 }
 
 header .logo {
@@ -98,6 +101,34 @@ header .logo {
 
 .profile .profile__date-select > .profile__date-select__name {
     font-family: 'Tahoma', serif;
+}
+
+.profile__date-select__input {
+    display: inline-block;
+    position: relative;
+}
+.profile .profile__date-select input {
+    width: 180px;
+    padding: 8px 9px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    margin-left: 25px;
+}
+
+.profile .profile__date-select button {
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    right: 1px;
+    border-radius: 0 2px 2px 0;
+    border: none;
+    border-left: 1px solid #cccccc;
+    padding: 6px;
+    background-color: #ebebeb;
+    color: #7c7c7c;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
 }
 
 main {

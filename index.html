@@ -28,10 +28,16 @@
                     <p><span>11,787</span> followers</p>
                     <p><span>112</span> following</p>
                 </div>
-                <div class="profile__date-select">
+                <div class="profile__date-select" >
                     <span class="profile__date-select__name">Date</span>
-                    <input id="from_date" type="date"/>
-                    <input id="to_date" type="date" />
+                    <div class="profile__date-select__input" id="from-date">
+                        <button title="clear" data-clear>✕</button>
+                        <input  data-input type="text" placeholder="from"/>    
+                    </div>
+                    <div class="profile__date-select__input" id="to-date">
+                        <button title="clear" data-clear>✕</button>
+                        <input type="text" placeholder="to" data-input  />                        
+                    </div>
                 </div>
             </div>
         </div>

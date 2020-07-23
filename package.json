@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.3"
   }
 }

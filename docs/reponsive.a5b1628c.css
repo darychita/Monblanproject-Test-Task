@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 840px) {
     header {
-        height: 385px;
+        height: 420px;
     }
 
     header .logo {
@@ -54,17 +54,22 @@
     header .profile__date-select {
         display: block;
     }
-    header .profile__date-select input {
-        margin-bottom: 5px;
+    header .profile__date-select .profile__date-select__input {
+        margin: 7px 0;
         width: 100%;
         display: block;
+    }
+
+    header .profile__date-select .profile__date-select__input input {
+        margin-left: 0;
+        width: 100%;
     }
     header .profile .profile__stats > p {
         margin-right: 0;
     }
 
     main {
-        margin-top: 385px;
+        margin-top: 420px;
         font-size: 12px;
     }
 

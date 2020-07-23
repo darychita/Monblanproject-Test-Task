@@ -1,3 +1,5 @@
+import flatpickr from 'flatpickr';
+
 const initSwitcher = (gridMode, listMode, content) => {
     const activeClass = 'active';
     const displayList = 'display_list';
@@ -31,3 +33,14 @@ initSwitcher(
     document.getElementById('mode-switcher-list'),
     document.getElementById('content')
 );
+
+const initDatepicker = (id) => {
+    flatpickr(id, { 
+        dateFormat: "Y-m-d", 
+        wrap: true, 
+        weekNumbers: true 
+    });
+};
+
+initDatepicker('#from-date');
+initDatepicker('#to-date');
