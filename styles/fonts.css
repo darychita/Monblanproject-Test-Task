@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ProximaNovaBold"; */
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "HelveticaNeueRegular";
+    src: url("../fonts/HelveticaNeueRegular/HelveticaNeue.eot");
+    src: url("../fonts/HelveticaNeueRegular/HelveticaNeue.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaNeueRegular/HelveticaNeue.woff") format("woff"),
+    url("../fonts/HelveticaNeueRegular/HelveticaNeue.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "HelveticaNeueBold";
+    src: url("../fonts/HelveticaNeueBold/HelveticaNeue-Bold.eot");
+    src: url("../fonts/HelveticaNeueBold/HelveticaNeue-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaNeueBold/HelveticaNeue-Bold.woff") format("woff"),
+    url("../fonts/HelveticaNeueBold/HelveticaNeue-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
